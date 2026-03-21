@@ -22,11 +22,11 @@
 const MrVaya = {
   name        : "Nirvaya Ligal",
   username    : "MrVaya",
-  location    : "Kathmandu, Nepal 🇳🇵  (UTC +05:45)",
+  location    : "Pokhara, Nepal 🇳🇵  (UTC +05:45)",
   pronouns    : "he/him",
-  role        : "Full-Stack Web Developer",
+  role        : "QA Automation",
   currentWork : "JetSet Holidays — Travel & Flight Booking Platform",
-  learning    : ["Next.js 15", "TypeScript", "System Design"],
+  learning    : ["Playwright", "Next.js 15", "AI", "System Design", "Selenium"],
   philosophy  : "Every Master once was a Beginner.",
   contact     : "github.com/MrVaya",
 };
