@@ -228,48 +228,7 @@ test('user can book a flight', async ({ page }) => {
 
 ---
 
-## ⚡ Activate the Snake — 3 Steps
-
-**Step 1** — In your `MrVaya/MrVaya` repo, create this file:
-`.github/workflows/snake.yml`
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually too
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: MrVaya
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Step 2** — Go to **Actions tab** → click `Generate Snake Animation` → click **Run workflow**.
-
-**Step 3** — Wait ~30 seconds. The snake SVG will appear in your `output` branch and display on your profile automatically. ✅
-
----
+ 
 
 ## 🤝 Let's Connect
 
