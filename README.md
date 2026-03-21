@@ -81,35 +81,7 @@ const MrVaya = {
 
 ---
 
-## 🧪 QA Automation Skills
-
-```java
-// Selenium + Java — Page Object Model
-public class LoginTest extends BaseTest {
-
-    @Test
-    public void verifySuccessfulLogin() {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.enterUsername("MrVaya")
-                 .enterPassword("securePass")
-                 .clickLogin();
-
-        Assert.assertTrue(dashboardPage.isLoaded(), "Login failed!");
-    }
-}
-```
-
-```ts
-// Playwright — TypeScript E2E Test
-import { test, expect } from '@playwright/test';
-
-test('user can book a flight', async ({ page }) => {
-  await page.goto('https://jetsetholidays.com');
-  await page.getByRole('button', { name: 'Book Domestic' }).click();
-  await expect(page.getByText('Confirm Booking')).toBeVisible();
-});
-```
-
+ 
 <div align="center">
 
 | Skill | Tool | Language |
@@ -215,9 +187,7 @@ test('user can book a flight', async ({ page }) => {
 
 ---
 
-## 🐍 Contribution Snake
-
-> **Setup required** — follow the 3 steps below to activate the snake animation on your profile.
+ 
 
 <div align="center">
 
